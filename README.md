@@ -8,7 +8,6 @@ Tested with
 
 * Kubernetes v1.18.3
 * Docker v19.03.11
-
 * Ubuntu focal
 
 ## Usage
