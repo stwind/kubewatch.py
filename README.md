@@ -81,6 +81,8 @@ Let's start the script, here we leave out the `kube-system` and `kube-node-lease
 $ ./kubewatch.py --ns-excl kube-system,kube-node-lease
 ```
 
+Now run a container
+
 ```sh
 $ kubectl run echo -ti --rm --attach --image=alpine --image-pull-policy=IfNotPresent --restart=Never --command -- echo hello
 hello
